@@ -1,23 +1,23 @@
 class Cirrux < Formula
   desc "CLI for Cirrux email"
   homepage "https://cirrux.co"
-  version "0.41.0"
+  version "0.43.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/cirrux-co/cli/releases/download/v0.41.0/cirrux-darwin-arm64.tar.gz"
-      sha256 "0342a90284f6ef736eda42536e30f6fef83f928d0a13040f972f1e6beb72cf51"
+      url "https://github.com/cirrux-co/cli/releases/download/v0.43.0/cirrux-darwin-arm64.tar.gz"
+      sha256 "490862b5db9940d10d209fd10a9ade7eb8233f37daf28d5be9b71781816c45fa"
     end
     on_intel do
-      url "https://github.com/cirrux-co/cli/releases/download/v0.41.0/cirrux-darwin-x64.tar.gz"
-      sha256 "839f0117ed2e29ca2d6f2f8f465602d28f68b60c3bb2f780faadd55c5f2b9397"
+      url "https://github.com/cirrux-co/cli/releases/download/v0.43.0/cirrux-darwin-x64.tar.gz"
+      sha256 "1fed5924ae305f30e6985a5d335df2208397c3edb553d7abef37926566f1ceb3"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/cirrux-co/cli/releases/download/v0.41.0/cirrux-linux-x64.tar.gz"
-      sha256 "ab5c69e009698234faa94fe98751a4cedd2861bcf711e46a1013ea61c06ff788"
+      url "https://github.com/cirrux-co/cli/releases/download/v0.43.0/cirrux-linux-x64.tar.gz"
+      sha256 "a3c7832a304f51b9077065ed391c88699959c312ebc19c88f3a71c431f380064"
     end
   end
 
